@@ -8,25 +8,26 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 
     <title>Document</title>
+    <script src="app.js"></script>
 </head>
 
-<body style="background-color:#204051;">
+<body onload="setbackground();">
 
 
-    <div class="container">
+    <div id="title" onload="setbackgroundTitle();"class="container">
         <div class="card-panel white lighten-2">
             <blockquote>
                 <h2>
                     "<p id="quote" class="flow-text"> loading...</p>"
                 </h2>    
-                <h5 id="author"></h5>
+                <b><h5 id="author"></h5></b>
             </blockquote>    
         </div>
 
     </div>
 
 
-    <script src="app.js"></script>
+    
 </body>
 
 </html>
