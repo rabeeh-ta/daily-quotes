@@ -2,4 +2,4 @@
 
     calls an api and displays it thats all
 
-	https://quotes-daily.netlify.app/
+Live - [https://quotes-daily.netlify.app/](https://quotes-daily.netlify.app/)
