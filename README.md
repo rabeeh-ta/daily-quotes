@@ -2,4 +2,4 @@
 
     calls an api and displays it thats all
 
-	https://quotes-daily.netlify.app/
+Click [here](https://quotes-daily.netlify.app/)to open the website.
