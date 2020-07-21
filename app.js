@@ -13,6 +13,7 @@ addEventListener('load', () => {
 
   callApi();
 });
+/*
 function setbackground()
 {
     window.setTimeout( "setbackground()", 5000); //  milliseconds delay
@@ -43,25 +44,4 @@ function setbackground()
    document.getElementsByTagName("body")[0].style.backgroundColor = "#" + ColorValue;
 
 }
-
-function setbackgroundTitle()
-{
-    window.setTimeout( "setbackgroundTitle()", 5000); //  milliseconds delay
-
-    var index = Math.round(Math.random() * 4);
-
-    var ColorValue = "FFFFFF"; // default color - white (index = 0)
-
-    if(index == 1)
-        ColorValue = "66FF33"; 
-    if(index == 2)
-        ColorValue = "FF0000"; 
-    if(index == 3)
-        ColorValue = "FF00FF"; 
-    if(index == 4)
-        ColorValue = "0000FF"; 
-
-
-    document.getElementById("title").style.backgroundColor = "#" + ColorValue;
-
-}
+*/
