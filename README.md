@@ -1,4 +1,4 @@
-# [see the live site](https://quotes-daily.netlify.app/)
+### [see the live site](https://quotes-daily.netlify.app/)
 
 ## About the project
 the website calls a [quotes API](https://programming-quotes-api.herokuapp.com) and displays it on the screen.
