@@ -13,7 +13,7 @@ addEventListener('load', () => {
 
   callApi();
 });
-/*
+
 function setbackground()
 {
     window.setTimeout( "setbackground()", 5000); //  milliseconds delay
@@ -44,4 +44,4 @@ function setbackground()
    document.getElementsByTagName("body")[0].style.backgroundColor = "#" + ColorValue;
 
 }
-*/
+
