@@ -1,11 +1,11 @@
 addEventListener('load', () => {
   function callApi() {
-    fetch('https://programming-quotes-api.herokuapp.com/quotes/random')
+    fetch('https://inspiration.goprogram.ai/')
       .then((res) => {
         return res.json();
       })
       .then((data) => {
-        document.getElementById('quote').innerHTML = data.en;
+        document.getElementById('quote').innerHTML = data.quote;
         document.getElementById('author').innerHTML = data.author;
       })
       .catch((err) => console.log(err));
