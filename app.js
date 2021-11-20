@@ -1,6 +1,11 @@
 addEventListener('load', () => {
   function callApi() {
-    fetch('https://inspiration.goprogram.ai/')
+    fetch('https://inspiration.goprogram.ai/',{
+      mode: 'cors',
+    headers: {
+    'Access-Control-Allow-Origin':'*'
+  }
+    })
       .then((res) => {
         return res.json();
       })
